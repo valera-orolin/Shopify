@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link href="static/css/basic.css" rel="stylesheet" type="text/css">
+	<title>Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&family=Pacifico&display=swap" rel="stylesheet">
+</head>  
+<body>
+
+<div class="container1 row space-between">
+    <div class="container1-1">
+        <h1 class="night">NIGHT</h1>
+        <div class="row space-between dots">
+            <img src="static/img/dot.png" class="dot">
+            <div class="sale">Sale</div>
+            <img src="static/img/dot.png" class="dot">
+        </div>
+        <div class="online-shop">ONLINE SHOP</div>
+        <div class="text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</div>
+        <div class="shop-now"><a href="#shopping">Shop Now</a></div>
+    </div>
+
+    <img src="static/img/boy.png" class="boy">
+</div>
+    
+<div class="container2">
+    <div class="container2-1 row center">
+        <div class="upto-off">UP TO</div>
+        <div class="fifty">50%</div>
+        <div class="upto-off">OFF</div>
+    </div>
+    
+    <div class="container2-2 row center">
+        <video controls="controls" poster="static/img/circle.png" class="video-player">
+        <source src="static/img/nevergonna.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+    </div>
+</div>
+    
+<div class="container3">
+    <a class="categories row center" name="shopping">PRODUCTS CATEGORIES</a>
+    <div class="product-row1 row center">
+        <div class="offers row" onclick="document.location='offers.php'">
+            <div class="offers-text">OFFERS</div>
+            <img src="static/img/shirt_white.png" class="shirt-img">
+            <div class="sale2">
+                <div class="upto">UP TO</div>
+                <div class="fifty2">50%</div>
+                <div class="off">OFF</div>
+            </div>
+        </div>
+        <div class="jeans row" onclick="document.location='jeans.php'">
+            <div class="jeans-text">JEANS</div>
+            <img src="static/img/jeans_white.png" class="jeans-img">
+        </div>
+    </div>
+    <div class="product-row2 row center">
+        <div class="acc" onclick="document.location='acces.php'">
+            <img src="static/img/acc_white.png" class="acc-img">
+            <div class="acc-text">ACCESSORIES</div>
+        </div>
+        
+        <div class="coat row" onclick="document.location='coats.php'">
+            <div class="coat-text">COATS AND<br>JACKETS</div>
+            <img src="static/img/coat_white.png" class="coat-img">
+        </div>
+    </div>
+</div>
+    
+<div class="container4 row center">
+    <div class="super">Super</div>
+    <div class="sale3">
+        <div>S</div>
+        <div>A</div>
+        <div>L</div>
+        <div>E</div>
+    </div>
+    <div class="arrow-text">
+        <img src="static/img/arrow.png" class="arrow" onclick="document.location='index.php'">
+        <div class="text2">Lorem ipsum</div>
+        <div class="text3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore .</div>
+    </div>
+</div>
+
+<img class="shape" src="static/img/shape.png">
+<img class="photo" src="static/img/photo.png">
+<div class="container5">
+    <div class="special">Special</div>
+    <div class="collections">COLLECTIONS</div>
+</div>
+    
+<div class="container6">
+    <div class="top">Top sellers</div>
+    <div class="photos row space-between">
+        <img src="static/img/photo1.png" class="photo1">
+        <img src="static/img/photo2.png" class="photo2">
+        <img src="static/img/photo3.png" class="photo3">
+    </div>
+</div>
+
+
+<div class="container7">
+    <a class="subscribe" name="contact">SUBSCRIBE TO OUR NEWSLETTER</a>
+    <div class="row center">
+        <div class="text4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt .</div>
+    </div>
+    <form action="message_form.php" method="POST">
+        <div class="inputs">
+            <input type="text" placeholder="NAME" class="name" name="name" minlength="1" maxlength="50" required/>
+            <input type="email" placeholder="MAIL" class="mail" name="email" required/>
+            <input type="text" placeholder="MESSAGE" class="message" name="message" minlength="1" maxlength="250" required/>
+        </div>
+        <button class="send" type="submit">SEND A MESSAGE</button>
+    </form>
+</form>
+</div>
+
+</body>
+</html>

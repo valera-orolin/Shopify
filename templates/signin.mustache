@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link href="static/css/basic.css" rel="stylesheet" type="text/css">
+	<title>Sign In</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&family=Pacifico&display=swap" rel="stylesheet">
+</head>  
+<body>
+
+<div class="container7">
+    <a class="enter">ENTER LOGIN AND PASSWORD</a>
+    <form action="signin_form.php" method="post">
+        <div class="inputs">
+            <input type="text" placeholder="LOGIN" class="login" name="login" minlength="2" maxlength="50" required/>
+            <input type="text" placeholder="PASSWORD" class="password" name="password" minlength="4" maxlength="50" required/>
+        </div>
+        <button class="send" type="submit" name="log">SIGN IN</button>
+    </form>
+</div>
+
+<div class="bottom"></div>
+</body>
+</html>
