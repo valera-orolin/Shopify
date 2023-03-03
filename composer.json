@@ -1,0 +1,7 @@
+{
+    "require": {
+        "mustache/mustache": "^2.14",
+        "wonderboymusic/mustache-css-modules": "^0.2.0",
+        "phpmailer/phpmailer": "^6.6"
+    }
+}
