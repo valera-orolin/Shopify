@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link href="static/css/basic.css" rel="stylesheet" type="text/css">
+	<title>Admin Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&family=Pacifico&display=swap" rel="stylesheet">
+</head>  
+<body>
+<div class="container7">
+    <a class="enter">ADD OR DELETE NEW ELEMENT</a>
+    <form action="admin_form.php" method="post">
+        <div class="inputs">
+            <input type="text" placeholder="COLLECTION" class="login" name="collection" minlength="1" maxlength="10" required/>
+            <input type="text" placeholder="NAME" class="name" name="name" minlength="1" maxlength="80" required/>
+            <input type="text" placeholder="PRICE" class="name" name="price" minlength="1" maxlength="8"/>
+            <input type="text" placeholder="COLORS" class="name" name="colors" minlength="1" maxlength="10"/>
+            <input type="text" placeholder="IMAGE" class="name" name="image" minlength="1" maxlength="100"/>
+        </div>
+        <div class="row space-between">
+            <button class="send" type="submit" name="add">ADD</button>
+            <button class="send" type="submit" name="delete">DELETE</button>
+        </div>
+    </form>
+
+    <div class="bottom"></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link href="static/css/basic.css" rel="stylesheet" type="text/css">
+	<title>Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&family=Pacifico&display=swap" rel="stylesheet">
+</head>  
+<body>
+<header class="header">
+    <div class="row space-between">
+        <div class="logo">SHOPIFY</div>
+        <div class="nav">
+            <ul>
+                <li><a href="index.php">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="index.php#shopping">SHOP</a></li>
+                <li><a href="index.php#contact">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="row space-between"> 
+            <a class="user-name" href="admin.php">{{name}}</a>
+            <form action="logout_form.php" method="post">
+                <input name="myActionName" type="submit" value="" class="logout" style="background-image: url(static/img/logout.svg);" />
+            </form>
+        </div>
+    </div>
+</header>
+</body>
+</html>
